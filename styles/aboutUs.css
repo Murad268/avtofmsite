@@ -1,0 +1,98 @@
+.aboutUs__header {
+   height: 446px;
+   background: url("../assets/bg/Rectangle\ 1\ \(1\).png");
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+
+.whois__desc__title {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 36px;
+}
+.whois__desc {
+   width: 400px;
+}
+.whois__desc__body {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+}
+
+.whois__wrapper {
+   margin-top: 120px;
+   column-gap: 159px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.whois__wrapper>div {
+   flex: 1;
+}
+.whois__desc__body {
+   width: 400px;
+}
+
+.broadcost__title {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 36px;
+   text-align: center;
+   color: var(--dark)
+}
+
+.broadcost__subtitle {
+   color: var(--dark);
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   text-align: center;
+   width: 430px;
+   margin: 6px auto 15px auto;
+}
+.broadcost {
+   padding: 160px 0;
+}
+.broadcost__map {
+   width: 100%;
+   overflow-x: scroll;
+}
+.broadcost__map>img {
+   width: 1410px;
+}
+
+.our__djs__title {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 36px;
+   color: var(--dark);
+   text-align: center;
+}
+
+.our__djs__subtitle {
+   max-width: 430px;
+   width: 100%;
+   text-align: center;
+   margin: 14px auto 35px auto;
+}
+
+.our__djs__carusel a {
+   
+   height: 404px;
+}
+.our__djs__carusel a img {
+   width: 100% !important;
+   height: 100% !important;
+   object-fit: fill;
+}

@@ -1,0 +1,46 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* border: 1px solid red; */
+}
+.slick-dots {
+   width: 90% !important;
+   margin: 0 auto;
+}
+ul, ol {
+   list-style-type: none;
+}
+a {
+   text-decoration: none;
+}
+
+
+@media(max-width: 1160px) {
+   .container {
+      padding: 0 20px;
+   }
+ }
+
+ @media(max-width: 468px) {
+   .slick-slide {
+      margin: 0;
+      width: 100%;
+   }
+   .podcasts__slider {
+      padding: 0;
+   }
+   .shows .slider {
+      padding: 0 0
+  }
+ }
+:root {
+   --white: #FFFFFF;
+   --main--font: "Maven Pro";
+   --gray: #898989;
+   --white--purple: #C746C9;
+   --border--gray: #898989;
+   --dark: #1A1D33;
+   --blue: #2FBFBD;
+   --poppins: "'Poppins'"
+}

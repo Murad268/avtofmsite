@@ -1,0 +1,27 @@
+@font-face {
+   font-family: 'Noir Pro';
+   src: url('../assets/fonts/NoirPro-Regular.otf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Noir Pro';
+   src: url('../assets/fonts/NoirPro-Bold.otf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Noir Pro';
+   src: url('../assets/fonts/NoirPro-Italic.otf') format('truetype');
+   font-weight: normal;
+   font-style: italic;
+}
+
+@font-face {
+   font-family: 'Noir Pro';
+   src: url('../assets/fonts/NoirPro-BoldItalic.otf') format('truetype');
+   font-weight: bold;
+   font-style: italic;
+}
