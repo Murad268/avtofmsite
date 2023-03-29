@@ -150,7 +150,7 @@ $('.our__djs__carusel').slick({
   slidesToShow: 3,
   centerMode: false,
   slidesToScroll: 1,
-  dots: false,
+  dots: true,
   arrows: true,
   prevArrow: '<button type="button" class="slider__arrow slider__arrow--prev"><i class="fa fa-angle-left"></i></button>',
   nextArrow: '<button type="button" class="slider__arrow slider__arrow--next"><i class="fa fa-angle-right"></i></button>',
@@ -179,3 +179,4 @@ $('.our__djs__carusel').slick({
     }
    ]
 });
+

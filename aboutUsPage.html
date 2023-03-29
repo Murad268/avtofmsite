@@ -5,6 +5,7 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="stylesheet" href="xmlns:app="http://schemas.android.com/apk/res/your_package_name"">
    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
    <link rel="stylesheet" type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
@@ -49,8 +50,8 @@
             <navbar class="navbar">
                <div class="navbar__wrapper">
                   <ul>
-                     <li><a href="">Home</a></li>
-                     <li><a href="">About us</a></li>
+                     <li><a href="./index.html">Home</a></li>
+                     <li><a href="./aboutUsPage.html">About us</a></li>
                      <li><a href="">Shows</a></li>
                      <li><a href="">Podcast</a></li>
                      <li><a href="">News</a></li>
@@ -87,7 +88,7 @@
          </div>
       </section>
 
-      <div class="our__djs">
+      <section class="our__djs">
          <h3 class="our__djs__title">Our DJs</h3>
          <div class="our__djs__subtitle">Our high-energy DJs are ready to help you have an extensive entertaining experience.</div>
          <div class="container">
@@ -106,7 +107,143 @@
                </a>
             </div>
          </div>
-      </div>
+      </section>
+
+      <section class="audience">
+         <div class="container">
+            <div class="audience__title">Audience demographics</div>
+            <div class="audience__wrapper">
+               <div class="audience__gender">
+                  <div class="audience__subtitle">Audience by gender</div>
+                  <div class="audience__gender__wrapper">
+                     <div class="audience__gender__percent"><span>76</span>% Men</div>
+                     <div class="audience__gender__circle">
+                        <div class="circle-wrap">
+                           <div class="circle">
+                              <div class="mask half">
+                                 <div class="fill"></div>
+                             </div>
+                             <div class="audience__gender__circle__white"></div>
+                             <div class="mask full">
+                              <div class="fill"></div>
+                           </div>
+                           </div>
+                         </div>
+                        
+                     </div>
+                     <div class="audience__gender__percent"><span>24</span>% Women</div>
+                  </div>
+               </div>
+               <div class="audience__age">
+                  <div class="audience__subtitle">Audience by age</div>
+                  <div class="audience__age__wrapper">
+                     <div class="audience__age__genders">
+                        <div class="audience__age__gender">
+                           <div class="color men-color"></div>
+                           <div class="name">men</div>
+                        </div>
+                        <div class="audience__age__gender">
+                           <div class="color wom-color"></div>
+                           <div class="name">women</div>
+                        </div>
+                     </div>
+                     <div class="audience__age__percents">
+                        <div class="audience__age__percent ">
+                           <div class="num"><span>6</span>%</div>
+                           <div class="box first"></div>
+                           <div class="age">21-25</div>
+                        </div>
+                        <div class="audience__age__percent ">
+                           <div class="num"><span>49</span>%</div>
+                           <div class="box second"></div>
+                           <div class="age">26—35</div>
+                        
+                        </div>
+                        <div class="audience__age__percent ">
+                           <div class="num"><span>29</span>%</div>
+                           <div class="box third"></div>
+                           <div class="age">36—45</div>
+                        </div>
+                        <div class="audience__age__percent ">
+                           <div class="num"><span>14</span>%</div>
+                           <div class="box fourth"></div>
+                           <div class="age">46—55</div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="audience__bottom">
+               <div class="audience__listen">
+                  <div class="audience__subtitle">Where do they listen to us</div>
+                  <div class="audience__listen__bars">
+                     <div class="audience__listen__bar">
+                        <div class="audience__listen__bar__name">In the car</div>
+                        <div class="audience__listen__bar__bar incar">
+                           <div class="audience__listen__bar__full"></div>
+                        </div>
+                        <div class="audience__listen__bar__percent"><span>86</span>%</div>
+                     </div>
+                     <div class="audience__listen__bar">
+                        <div class="audience__listen__bar__name">At home</div>
+                        <div class="audience__listen__bar__bar athome">
+                           <div class="audience__listen__bar__full"></div>
+                        </div>
+                        <div class="audience__listen__bar__percent"><span>6</span>%</div>
+                     </div>
+                     <div class="audience__listen__bar">
+                        <div class="audience__listen__bar__name">At work</div>
+                        <div class="audience__listen__bar__bar atwork">
+                           <div class="audience__listen__bar__full"></div>
+                        </div>
+                        <div class="audience__listen__bar__percent"><span>5</span>%</div>
+                     </div>
+                     <div class="audience__listen__bar">
+                        <div class="audience__listen__bar__name">Other</div>
+                        <div class="audience__listen__bar__bar other">
+                           <div class="audience__listen__bar__full"></div>
+                        </div>
+                        <div class="audience__listen__bar__percent"><span>3</span>%</div>
+                     </div>
+                  </div>
+               </div>
+               <div class="audience__work">
+                  <div class="audience__subtitle">Audience by field of work</div>
+                  <div class="audience__work__bars">
+                     <div class="audience__work__bar">
+                        <div class="audience__work__bar__name">Private work</div>
+                        <div class="audience__work__bar__bar privatework">
+                           <div class="audience__work__bar__full"></div>
+                        </div>
+                        <div class="audience__work__bar__percent"><span>34</span>%</div>
+                     </div>
+                     <div class="audience__work__bar">
+                        <div class="audience__work__bar__name">State</div>
+                        <div class="audience__work__bar__bar state">
+                           <div class="audience__work__bar__full"></div>
+                        </div>
+                        <div class="audience__work__bar__percent"><span>26</span>%</div>
+                     </div>
+                     <div class="audience__work__bar">
+                        <div class="audience__work__bar__name">Private business</div>
+                        <div class="audience__work__bar__bar business">
+                           <div class="audience__work__bar__full"></div>
+                        </div>
+                        <div class="audience__work__bar__percent"><span>19</span>%</div>
+                     </div>
+                     <div class="audience__work__bar">
+                        <div class="audience__work__bar__name">Unemployed</div>
+                        <div class="audience__work__bar__bar unemployed">
+                           <div class="audience__work__bar__full"></div>
+                        </div>
+                        <div class="audience__work__bar__percent"><span>21</span>%</div>
+                     </div>
+                  </div>   
+               </div>
+            </div>
+         </div>
+      </section>
+
       <footer class="footer">
          <div class="container">
             <div class="footer__wrapper">
