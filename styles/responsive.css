@@ -92,7 +92,7 @@
       row-gap: 40px;
    }
    .alert {
-      margin-top: 700px;
+      margin-top: 170px;
    }
    .alert__wrapper {
       flex-direction: column;
@@ -118,9 +118,9 @@
    }
 }
 @media(max-width: 992px) {
-   .menu__mini {
+   .menu__mini, .news__load {
       display: block !important;
-
+     
    }
    .menu__mini .slick-list {
       padding-left: 70px;
@@ -176,9 +176,7 @@
   
 }
 @media(max-width: 830px) {
-   .nw__wrapper {
-      row-gap: 150px;
-   }
+
    .footer__menu__top {
       row-gap: 30px;
       grid-template-columns: repeat(3, 1fr) !important;
@@ -198,6 +196,9 @@
    }
 }
 @media(max-width: 750px) {
+   .nw__wrapper, .alert__wrapper {
+      height: max-content !important;
+   }
    .audience__wrapper>div {
       margin: 0 auto;
    }
@@ -299,6 +300,7 @@
    }
 }
 @media(max-width: 660px) {
+
    .nw .container {
       width: 100% !important;
       padding: 0 !important;
@@ -312,14 +314,14 @@
    }
 }
 @media(max-width: 630px) {
-   
+   .nw__wrapper {
+      padding-left: 70px;;
+   }
    .menu__mini .slick-list a {
       margin-left: -20px;
    }
 
-   /* .alert {
-      margin-top: 575px;
-   } */
+
    .nw__weather__title {
       margin-left: 30px;
       font-size: 24px;
@@ -369,7 +371,7 @@
    }
 }
 @media(max-width: 600px) {
-
+   
    .navbar__body__wrapper {
       width: 100%;
    }
@@ -394,7 +396,10 @@
    }
 }
 @media(max-width: 570px) {
- 
+   .nw__wrapper {
+      width: 100% !important;
+      padding-left: 30px;
+   }
    .audience__work__bar, .audience__listen__bar {
       column-gap: 0 !important;
       flex-direction: column;
@@ -426,11 +431,19 @@
    }
 }
 @media(max-width: 500px) {
+   .nw__wrapper {
+      padding-left: 0;
+   }
    .audience__age__percents {
       column-gap: 0px !important;
    }
 }
 @media(max-width: 480px) {
+   .meet__slider__box__name {
+      font-style: 24px;
+      line-height: 28px;
+      width: max-content;
+   }
    .audience__title {
       font-size: 20px !important;
       text-align: center !important;
@@ -515,15 +528,15 @@
    .nw__news__box {
       height: 250px;
       padding: 0 10px;
-   
+ 
  
       overflow: hidden;
    }
 
    .nw__news__box img {
       height: 100%;
-      width: 100%;
-      object-fit: fill;
+      width: 100% !important;
+      object-fit: fill !important;
    }
    .nw__news__box:last-child {
       display: none;

@@ -696,11 +696,10 @@ body {
    padding: 161px 0 160px 0;
  }
  .nw .news__load {
-   display: block;
    border: 1px solid !important;
    padding:  15px 0;
    border-image: linear-gradient(84.7deg, #C21FC4 1.27%, #2FBFBD 99.24%) 1 !important;
-   display: block !important;
+   display: none;
    text-align: center;
    background: linear-gradient(84.7deg, #C21FC4 1.27%, #2FBFBD 99.24%) !important;
    -webkit-background-clip: text !important;
@@ -742,9 +741,9 @@ body {
    width: 350px;
  }
  .nw__news__box>img {
-   width: 100%;
-   object-fit: fill;
-   object-fit: cover;
+   width: 470px;
+
+   object-fit: cover !important;
  }
 
  .nw__weather {
