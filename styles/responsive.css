@@ -504,7 +504,9 @@
    }
 }
 @media(max-width: 600px) {
-
+   .popularvideos__slide_image {
+      height: 265px !important;
+   }
    .news__loader {
       display: flex !important;
    }
