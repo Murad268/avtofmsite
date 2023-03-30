@@ -1,5 +1,6 @@
 .shows__header {
    height: 446px;
+   padding-bottom: 49px !important;
    background: url('../assets/bg/showsbg.png');
    background-repeat: no-repeat;
    background-size: cover
@@ -99,4 +100,103 @@
    width: 100%;
    height: 100%;
    object-fit: fill;
+}
+.live {
+   margin: 160px 0;
+   background: url('../assets/bg/Rectangle\ 6\ \(1\).png');
+   padding: 82px 0 98px 0;
+   background-repeat: no-repeat;
+   background-size: cover
+}
+
+.live__top {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+   color: var(--white--purple);
+   margin-bottom: 26px;
+}
+.live__title {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 36px;
+   color: var(--white);
+}
+
+.live__text {
+   max-width: 370px;
+   width: 100%;
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--white);
+   margin-top: 14px;
+}
+
+.live__button {
+   margin-top: 47px;
+   background: linear-gradient(84.7deg, #C21FC4 1.27%, #2FBFBD 99.24%);
+   border-radius: 5px;
+   width: 169px;
+   height: 41px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 14px;
+   display: flex;
+   line-height: 21px;
+   color: var(--white);
+   text-align: center;
+}
+
+.popular {
+   padding-bottom: 160px;
+}
+
+.popular__body__title {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   color: var(--dark);
+   line-height: 36px;
+}
+
+.popular__body__desc {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--dark);
+   margin-top: 17px;
+}
+.slider {
+   padding: 0;
+   
+}
+.slick-list {
+   margin: 0 -10px;
+}
+.slick-slide {
+   margin: 0 10px;
+}
+.slick-slide img {
+   width: 100%;
+   object-fit: cover;
+}
+.popular__body {
+   
+   max-width: 370px;
+   width: 100%;
+   margin-bottom: 55px;
 }

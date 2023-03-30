@@ -310,6 +310,7 @@ body {
 .shows .slider {
    padding: 0 40px;
 }
+
 .slider {
    width: 100%;
    padding: 0 20px;
@@ -321,7 +322,10 @@ body {
 }
 .slick-slide {
    width: 579px;
-   margin: 0 15.5px; 
+ 
+}
+.slick-track {
+   column-gap: 20px
 }
 .podcasts__slider {
    padding: 0 30px;
@@ -859,7 +863,7 @@ body {
    margin-top: 22px;
  }
 
-
+ 
  .footer {
    margin-top: 17px;
    padding-top: 191px;

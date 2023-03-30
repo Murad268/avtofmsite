@@ -1,0 +1,290 @@
+.podcast__header  {
+   height: 446px ;
+   padding-bottom: 49px !important;
+   background: url("../assets/bg/podbg.png");
+   background-repeat: no-repeat;
+   background-size: cover
+}
+
+
+.discover__title {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 36px;
+   color: var(--dark);
+   margin-bottom: 45px;
+}
+.discover__slide {
+   width: 354px;
+   background-color: var(--white);
+}
+.discover__slide__img {
+   width: 100%;
+   height: 229px;
+}
+.discover__slide__img img {
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+}
+.discover__slide__body {
+   padding: 15px 18px 24px 24px;
+}
+
+.discover__slide__title {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 24px;
+   color: var(--dark);
+}
+
+.discover__slide__subtitle {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--dark);
+   margin-top: 5px;
+}
+
+.discover__slide__duration {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--dark);
+   margin-top: 18px;
+}
+
+.discover {
+   padding: 120px 0 160px 0;
+}
+.latest {
+   height: max-content;
+}
+
+.latest__episodes__title {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 36px;
+   color: var(--dark);
+}
+
+.latest__episodes__subtitle {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--dark);
+}
+
+.latest__episodes__box {
+   display: flex;
+   column-gap: 31px;
+   align-items: center;
+}
+
+.latest__episodes__box img {
+   width: 270px;
+   height: 218px;
+}
+.latest__episodes__box img {
+   width: 100%;
+   height: 100%;
+   object-fit: fill
+}
+
+.latest__episodes__box__body__time {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   color: var(--dark);
+}
+ .latest__episodes__box__body__title {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 32px;
+   margin-top: 9px;
+   color: var(--dark);
+ }
+
+ .latest__episodes__box__body__desc {
+   margin-top: 12px;
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--dark);
+ }
+ .latest__episodes__box__body {
+   width: 369px;
+ }
+
+ .latest__episodes__boxes {
+   padding-top: 45px;
+ }
+
+ .latest__episodes__box {
+   margin-bottom: 45px
+ }
+
+ .latest__episodes__subtitle {
+   width: 281px;
+   margin-top: 7px;
+ }
+
+ /* .latest__tredning {
+   width: 200px;
+ } */
+
+ .latest__tredning__boxes {
+   width: 100%;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 30px;
+ }
+
+ .latest__wrapper {
+   display: flex;
+   column-gap: 131px;
+ }
+
+ .latest__tredning__title {
+   margin-bottom: 30px;
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 36px;
+   color: var(--dark)
+ }
+
+ .latest__tredning__box {
+   /* height: 153.51px; */
+ } 
+
+ .latest__tredning__box img {
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+ }
+
+ .trending__load {
+   background: linear-gradient(84.7deg, #C21FC4 1.27%, #2FBFBD 99.24%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   display: flex !important;
+   border: 3px solid;
+   justify-content: center;
+   align-items: center;
+   margin-top: 42px;
+   width: max-content;
+   padding: 7px 45px;
+   border-image: linear-gradient(84.7deg, #C21FC4 1.27%, #2FBFBD 99.24%) 1;;
+ }
+
+ .popular__title {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 36px;
+   color: var(--dark)
+ }
+
+ .popular__slider__wrapper {
+   margin-top: 45px;
+ }
+ .popular {
+   padding: 160px 0;
+ }
+
+.popular__title {
+   margin-bottom: 45px;
+}
+
+.signup {
+   text-align: center;
+   background: url("../assets/bg/Rectangle\ 41.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 104px 0 86px 0;
+}
+
+.signup__title {
+   margin-bottom: 20px;
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 32px;
+   line-height: 36px;
+   color: var(--white)
+}
+.signupshower {
+   margin-top: 0 !important;
+}
+.signup__subtitle {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--white);
+   max-width: 366px;
+   width: 100%;
+   margin: 0 auto;
+   margin-bottom: 37px;
+}
+.signup__input {
+   border-radius: 5px;
+   overflow: hidden;
+   max-width: max-content;
+   width: 100%;
+   margin: 0 auto;
+}
+.signup__input form {
+   width: max-content;
+   display: flex;
+}
+.signup__input form input {
+   height: 44px;
+   width: 470px;
+   border-radius: 5px 0 0 5px;
+   border: none;
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 17px;
+   color: var(--gray);
+   padding-left: 20px;
+}
+.signup__input form button {
+   background: linear-gradient(84.7deg, #C21FC4 1.27%, #2FBFBD 99.24%);
+   border-radius: 0px 5px 5px 0px;
+   color: var(--white);
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   width: 130px;
+   height: 44px;
+   border: none;
+   
+}
