@@ -110,6 +110,39 @@ $('.podcasts__slider').slick({
 });
 
 
+$('.show__cats__wrapper').slick({
+  infinite: true,
+  slidesToShow: 4,
+  centerMode: false,
+  slidesToScroll: 1,
+  arrows: false,
+  responsive: [
+    {
+      breakpoint: 480,
+      settings: {
+     
+        slidesToShow: 1,
+      
+      }
+    },
+    {
+      breakpoint: 786,
+      settings: {
+     
+        slidesToShow: 2,
+      
+      }
+    },
+    {
+      breakpoint: 992,
+      settings: {
+     
+        slidesToShow: 3,
+      
+      }
+    }
+   ]
+});
 
 
 

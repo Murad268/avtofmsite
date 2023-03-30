@@ -1,0 +1,102 @@
+.shows__header {
+   height: 446px;
+   background: url('../assets/bg/showsbg.png');
+   background-repeat: no-repeat;
+   background-size: cover
+}
+.show__top__desc {
+   max-width: 470px;
+   width: 100%;
+}
+.show__top__desc__time {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--white--purple)
+}
+
+.show__top__desc__title {
+   margin-top: 15px;
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 32px;
+   color: var(--dark);
+}
+
+.show__top__desc__text {
+   margin-top: 20px;
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--dark);
+}
+
+.show__top__desc__btns {
+   display: flex;
+   column-gap: 39.5px;
+   margin-top: 26px;
+}
+.show__top__desc__btns button {
+   background: linear-gradient(84.7deg, #C21FC4 1.27%, #2FBFBD 99.24%);
+   border-radius: 5px;
+   width: 100px;
+   height: 41px;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 21px;
+   color: var(--white);
+   text-align: center;
+   border: none
+}
+.show__top__desc__btns a {
+   padding: 5px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 21px;
+   text-align: center;
+   background: linear-gradient(84.7deg, #C21FC4 1.27%, #2FBFBD 99.24%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   -webkit-text-fill-color: transparent;
+   border: 3px solid;
+   border-image: linear-gradient(84.7deg, #C21FC4 1.27%, #2FBFBD 99.24%) 1;
+   border-radius: 10px;
+}
+
+.show__top {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: max-content;
+}
+
+.show {
+   padding-top: 120px;
+}
+
+.show__cats__wrapper {
+   margin-top: 60px;
+}
+
+.show__cat {
+   height: 230px;
+}
+.show__cat img {
+   width: 100%;
+   height: 100%;
+   object-fit: fill;
+}

@@ -15,7 +15,28 @@ a {
    text-decoration: none;
 }
 
-
+.custom__header__body__title {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 600;
+   font-size: 58px;
+   line-height: 64px;
+   color: var(--white);
+}
+.custom__header__body__text {
+   margin-top: 17px;
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 24px;
+   color: var(--white);
+}
+.custom__header__body {
+   margin-top: 75px;
+   max-width: 370px;
+   width: 100%;
+}
 @media(max-width: 1160px) {
    .container {
       padding: 0 20px;
@@ -23,6 +44,19 @@ a {
  }
 
  @media(max-width: 468px) {
+   .custom__header__body__title {
+      font-size: 32px;
+      line-height: 38px;
+   }
+   .custom__header__body__text {
+      font-size: 18px;
+      line-height: 27px;
+   }
+   .custom__header__body {
+      margin-top: 213px;
+      margin-bottom: 40px;
+   }
+ 
    .slick-slide {
       margin: 0;
       width: 100%;

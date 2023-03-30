@@ -76,6 +76,9 @@
    }
 }
 @media(max-width: 1110px) {
+   .show__top__desc {
+      padding-left: 15px;
+   } 
    .footer {
       padding-top: 60px !important;
       margin-top: 147px !important;
@@ -118,6 +121,13 @@
    }
 }
 @media(max-width: 992px) {
+   .show__top {
+      flex-direction: column !important;
+      row-gap: 25px;
+   }
+   .show__top__desc {
+      padding: 5;
+   } 
    .menu__mini, .news__load {
       display: block !important;
      
@@ -371,7 +381,15 @@
    }
 }
 @media(max-width: 600px) {
+   .show__top__image {
+      width: 100%;
+ 
+   }
+   .show__top__image img {
+      width: 100%;
    
+      object-fit: fill;
+   }
    .navbar__body__wrapper {
       width: 100%;
    }
@@ -431,6 +449,9 @@
    }
 }
 @media(max-width: 500px) {
+   .show {
+      padding-top: 90px;
+   }
    .nw__wrapper {
       padding-left: 0;
    }
@@ -439,6 +460,14 @@
    }
 }
 @media(max-width: 480px) {
+   .show__top__desc__btns {
+      margin-top: 49px;
+      flex-direction: column;
+      row-gap: 20px;
+   }
+   .show__top__desc__btns button {
+      width: 100% !important;
+   }
    .meet__slider__box__name {
       font-style: 24px;
       line-height: 28px;
@@ -553,6 +582,11 @@
 
 }
 @media(max-width: 460px) {
+  
+   .aboutUs__header, .shows__header {
+      padding-bottom: 40px !important;
+      height: 510px !important;
+   }
    .broadcost__subtitle {
       width: 95% !important;
       margin: 0 auto;

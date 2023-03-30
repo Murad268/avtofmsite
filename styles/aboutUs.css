@@ -2,7 +2,7 @@
    height: 446px;
    background: url("../assets/bg/Rectangle\ 1\ \(1\).png");
    background-repeat: no-repeat;
-   background-size: 100% 100%;
+   background-size: cover
 }
 
 .whois__desc__title {
