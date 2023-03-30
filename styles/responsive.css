@@ -14,6 +14,9 @@
       /* width: max-content; */
       /* margin: 0 auto; */
    }
+   .latest__episodes__boxes {
+      justify-content: space-evenly;
+   }
    .latest__episodes {
       order: 2
    }
@@ -308,7 +311,7 @@
    }
 }
 @media(max-width: 790px) {
-  
+ 
    .categories__load {
       display: flex !important;
    }
@@ -435,6 +438,7 @@
 
 }
 @media(max-width: 660px) {
+   
    .latest__tredning__boxes {
       grid-template-columns: repeat(2, 1fr) !important;
       column-gap: 30px !important;
@@ -500,6 +504,7 @@
    }
 }
 @media(max-width: 600px) {
+
    .news__loader {
       display: flex !important;
    }
@@ -729,6 +734,31 @@
 
 }
 @media(max-width: 460px) {
+   .live {
+      height: 478px;
+      background-image: none !important;
+      background-image: url("../assets/bg/carmini.png") !important
+   }
+   .popular .slider {
+      padding: 0 20px;
+   }
+   .popular {
+      padding: 0 0 !important;
+   }
+   .podcast__header {
+      background-image: none !important;
+      background-image: url('../assets/bg/podbgmini.png') !important
+   }
+   .shows__header {
+      background-image: none !important;
+      background-image: url('../assets/bg/minishows.png') !important;
+      background-size: 100% 100% !important;
+   }
+   .news__header {
+      background-image: none !important;
+      background-image: url('../assets/bg/newsbgmini.png') !important;
+      background-size: 100% 100% !important;
+   }
    .categories {
       padding-bottom: 90px !important;
    }

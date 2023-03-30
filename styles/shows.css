@@ -1,3 +1,6 @@
+.aboutUs__header {
+   overflow-x: hidden;
+}
 .shows__header {
    height: 446px;
    padding-bottom: 49px !important;
@@ -159,6 +162,7 @@
 }
 
 .popular {
+   padding-top: 90px;
    padding-bottom: 160px;
 }
 
@@ -195,7 +199,7 @@
    object-fit: cover;
 }
 .popular__body {
-   
+   overflow-x: hidden !important;
    max-width: 370px;
    width: 100%;
    margin-bottom: 55px;

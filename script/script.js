@@ -14,7 +14,8 @@ $('.slider').slick({
         breakpoint: 788,
         settings: {
           slidesToShow: 1,
-          arrows: false
+          arrows: false,
+          dots: false,
         }
       },
       {
@@ -369,14 +370,16 @@ $('.popularvideos__wrapper').slick({
       breakpoint: 400,
       settings: {
         slidesToShow: 1,
-        arrows: false
+        arrows: false,
+        dots: false,
       }
     },
     {
       breakpoint: 580,
       settings: {
         slidesToShow: 2,
-        arrows: false
+        arrows: false,
+        dots: false,
       }
     },
  
@@ -385,13 +388,13 @@ $('.popularvideos__wrapper').slick({
       settings: {
         slidesToShow: 3,
         arrows: false,
-        dots: true,
+        dots: false,
       }
     },
     {
       breakpoint: 1290,
       settings: {
-       
+        dots: false,
         arrows: false
       }
     },

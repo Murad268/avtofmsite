@@ -174,13 +174,13 @@
  }
 
  .latest__tredning__box {
-   /* height: 153.51px; */
+   height: 153.51px;
  } 
 
  .latest__tredning__box img {
    width: 100%;
    height: 100%;
-   object-fit: contain;
+   object-fit: fill;
  }
 
  .trending__load {
@@ -210,9 +210,7 @@
  .popular__slider__wrapper {
    margin-top: 45px;
  }
- .popular {
-   padding: 160px 0;
- }
+
 
 .popular__title {
    margin-bottom: 45px;
