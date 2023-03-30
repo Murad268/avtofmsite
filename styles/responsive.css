@@ -92,9 +92,17 @@
    }
 }
 @media(max-width: 1110px) {
+   .nw__weather__box__footer__wrapper {
+      grid-template-columns: repeat(4, 1fr) !important;
+   }
+
+   .nw__weather {
+      padding-left: 20px;
+   }
    .show__top__desc {
       padding-left: 15px;
    } 
+ 
    .footer {
       padding-top: 60px !important;
       margin-top: 147px !important;
@@ -125,16 +133,7 @@
    .alert__map {
       order: 2
    }
-   .nw__wrapper {
-      flex-direction: column;
-      width: max-content;
-      row-gap: 50px ;
-      margin: 0 auto;
-   }
-   .nw__news {
-      width: max-content;
-      margin: 0 auto;
-   }
+
 }
 @media(max-width: 1050px) {
    .read__news__main__box {
@@ -176,7 +175,12 @@
    }
 }
 @media(max-width: 992px) {
-   
+   .nw__weather__box__footer__wrapper {
+      grid-template-columns: repeat(3, 1fr) !important;
+   }
+   .nw__weather__top {
+      left: 50px !important;
+   }
    .show__top {
       flex-direction: column !important;
       row-gap: 25px;
@@ -186,11 +190,12 @@
    } 
    .menu__mini, .news__load {
       display: block !important;
-     
+
    }
    .menu__mini .slick-list {
       padding-left: 70px;
    }
+
    .header__menu {
       display: none;
    }
@@ -242,13 +247,32 @@
   
 }
 @media(max-width: 870px) {
+   .nw__weather__box__footer__wrapper {
+      grid-template-columns: repeat(5, 1fr) !important;
+   }
+   .nw__weather {
+      width: 100% !important;
+      padding-left: 0 !important;
+   }
+   .nw__weather__box {
+      width: 100%;
+      object-fit: fill;
+   }
    .read__most__box {
       margin-top: 30px !important;
    }
    .latest__tredning__boxes {
       gap: 20px !important;
    }
-
+   .nw__wrapper {
+      flex-direction: column;
+      row-gap: 30px;
+   }
+   .nw__news__boxes {
+      height: max-content !important;
+      column-gap: 10px;
+      flex-direction: row !important;
+   }
 }
 @media(max-width: 830px) {
    .categories__box__text {
@@ -320,7 +344,7 @@
    }
 }
 @media(max-width: 750px) {
-   .nw__wrapper, .alert__wrapper {
+   .alert__wrapper {
       height: max-content !important;
    }
    .audience__wrapper>div {
@@ -374,13 +398,7 @@
    .podcasts {
       padding-bottom: 30px !important;
    }
-   .nw__weather {
-      margin-top: 20px !important;
-   }
-   .nw {
-      padding-top: 40px !important;
-      padding-bottom: 30px !important;
-   }
+
    .meet {
       padding-bottom: 30px !important;
    }
@@ -435,10 +453,7 @@
       border-radius: 5px !important;
       padding: 0;
     }
-   .nw .container {
-      width: 100% !important;
-      padding: 0 !important;
-   }
+
    .menu__mini .slick-list {
       padding: 0 !important;
       text-align: center !important;
@@ -448,37 +463,17 @@
    }
 }
 @media(max-width: 630px) {
-   .nw__wrapper {
-      padding-left: 70px;;
+   .news__load {
+      margin-left: 0 !important;
+     
    }
+
    .menu__mini .slick-list a {
       margin-left: -20px;
    }
 
 
-   .nw__weather__title {
-      margin-left: 30px;
-      font-size: 24px;
-      line-height: 28px;
-   }
-   .nw__wrapper>div {
-      width: 100%;
-   }
-   .nw__wrapper {
-      width: 100%;
-   }
-   .nw .container {
-      padding: 0;
-   }
-   .nw__weather {
-      width: 100%;
-   }
-   .nw__weather>div {
-      width: 100%;
-   }
-   .nw__weather>div>img {
-      width: 100%;
-   }
+   
    .slick-dots li button:before {
       margin-top: 20px !important;
     }
@@ -505,10 +500,30 @@
    }
 }
 @media(max-width: 600px) {
+   .news__loader {
+      display: flex !important;
+   }
+   .nw__news__boxes {
+      padding: 0 20px;
+   }
+   .nw .container {
+      padding: 0;
+   }
    .show__top__image {
       width: 100%;
  
    }
+   .nw__weather__title, .nw__news__title {
+      padding-left: 20px;
+   }
+   .nw__news__box {
+      height: 250px !important;
+      width: 100% !important;
+   }
+   .nw__news__box:last-child {
+      display: none;
+   }
+
    .latest__wrapper {
       width: 100% !important;
    }
@@ -549,9 +564,14 @@
    }
 }
 @media(max-width: 570px) {
-   .nw__wrapper {
-      width: 100% !important;
-      padding-left: 30px;
+   .nw__weather__box__footer {
+      display: none;
+   }
+   .nw__weather__box__day {
+      position: absolute;
+      bottom: 60px;
+      left: 37px;
+      display: block !important;
    }
    .audience__work__bar, .audience__listen__bar {
       column-gap: 0 !important;
@@ -587,16 +607,18 @@
    .latest__episodes__box {
       flex-direction: column;
    }
- 
-   
+   .news__load {
+      width: 93% !important;
+      margin: 0 auto !important;
+   }
+
 }
 @media(max-width: 500px) {
+
    .show {
       padding-top: 90px;
    }
-   .nw__wrapper {
-      padding-left: 0;
-   }
+
    .audience__age__percents {
       column-gap: 0px !important;
    }
@@ -655,9 +677,7 @@
    .podcasts__slider {
       padding: 0 !important;
    }
-   .nw__wrapper {
-      height: max-content !important;
-   }
+
    .download__wrapper {
       width: 100% !important;
    }
@@ -669,9 +689,7 @@
       margin-top: 70px;
       padding: 0 !important;
    }
-   .nw__news__box__row {
-      width: 70% !important;
-   }
+ 
    .download__desc {
       width: 100% !important;
    }
@@ -695,51 +713,13 @@
    .alert {
       margin-top: 10px;
    }
-   .nw__news__title {
-      margin-left: 30px;
-   }
-   .nw__wrapper {
-     width: 100%;
-     height: max-content;
-     overflow: hidden;
-   }
-   .nw__news__box__row {
-      font-size: 18px;
-      line-height: 24px;
-      width: 60%;
-      margin-left: 30px;
-      border-radius: 5px;
-  
-   }
-   .nw__news__box__row__desc {
-      width: 100%;
-   }
-   .nw__news__box__row__date {
-      font-size: 16px;
-      line-height: 24px;
-   }
-   .nw__news__box {
-      height: 250px;
-      padding: 0 10px;
- 
- 
-      overflow: hidden;
-   }
 
-   .nw__news__box img {
-      height: 100%;
-      width: 100% !important;
-      object-fit: fill !important;
-   }
-   .nw__news__box:last-child {
-      display: none;
-   }
-   .nw__weather {
-      width: 100%;
-   }
-   .nw__weather img {
-      width: 100%;
-   }
+
+
+
+ 
+
+
    .footer {
       margin-top: 57px !important;
    }
@@ -831,12 +811,8 @@
    .audience__listen__bar__bar, .audience__work__bar__bar {
       width: 200px !important;
    }
-   .nw__weather__top {
-      left: 37px;
-   }
-   .nw__weather>div>img{
-      height: 374px !important;
-   }
+
+
    .meet__subtitle {
       width: 100%;
    }
@@ -1024,9 +1000,7 @@
    .read__most__boxes {
       padding-left: 20px;
    }
-   .nw__weather__top {
-      left: 35px !important;
-   }
+
    .playlist__image img {
       object-fit: contain !important;
    }
