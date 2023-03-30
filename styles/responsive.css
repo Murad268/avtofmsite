@@ -624,6 +624,9 @@
    }
 }
 @media(max-width: 480px) {
+   .mini__hidden__menu {
+      width: 100% !important;
+   }
    .featured__box__bottom {
       width: 100%;
       flex-direction: column;

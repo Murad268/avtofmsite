@@ -397,3 +397,20 @@ $('.popularvideos__wrapper').slick({
     },
   ]
 });
+
+
+
+function openMenu(trigger, menu, close, classAc) {
+  const btn = document.querySelector(trigger),
+        hiddMenu = document.querySelector(menu),
+        closeBtn = document.querySelector(close);
+
+  btn.addEventListener("click", () => {
+    hiddMenu.classList.add(classAc);
+  })
+  closeBtn.addEventListener("click", () => {
+    hiddMenu.classList.remove(classAc);
+  })
+}
+
+openMenu('.navbar__hamburger', ".mini__hidden__menu", ".menu__close", "mini__hidden__menu__active")

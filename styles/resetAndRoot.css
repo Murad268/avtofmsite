@@ -19,7 +19,16 @@ ul, ol {
 a {
    text-decoration: none;
 }
-
+:root {
+   --white: #FFFFFF;
+   --main--font: "Maven Pro";
+   --gray: #898989;
+   --white--purple: #C746C9;
+   --border--gray: #898989;
+   --dark: #1A1D33;
+   --blue: #2FBFBD;
+   --poppins: "'Poppins'"
+}
 .custom__header__body__title {
    font-family: 'Noir Pro';
    font-style: normal;
@@ -73,13 +82,41 @@ a {
       padding: 0 0
   }
  }
-:root {
-   --white: #FFFFFF;
-   --main--font: "Maven Pro";
-   --gray: #898989;
-   --white--purple: #C746C9;
-   --border--gray: #898989;
-   --dark: #1A1D33;
-   --blue: #2FBFBD;
-   --poppins: "'Poppins'"
-}
+
+ .mini__hidden__menu {
+   width: 450px;
+   padding: 30px;
+   position: fixed;
+   height: 100vh;
+   top: 0;
+   left: -100%;
+   background-color: #252038;
+   z-index: 14;
+   transition: 0.4s all;
+ }
+ .mini__hidden__menu i {
+   position: absolute;
+   top: 10px;
+   right: 10px;
+   color: red;
+   font-size: 50px;
+   cursor: pointer;
+ }
+ .mini__hidden__menu__active {
+   left: 0;
+ }
+ .mini__hidden__menu a {
+   font-family: 'Noir Pro';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 19px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   color: var(--white);
+   font-size: 30px;
+ }
+ .mini__hidden__menu li {
+   padding: 20px 0;
+ }
