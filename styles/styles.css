@@ -634,7 +634,7 @@ body {
 
  
  .footer {
-   margin-top: 17px;
+   /* margin-top: 17px; */
    padding-top: 191px;
    background: var(--dark);
  }

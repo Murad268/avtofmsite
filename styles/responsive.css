@@ -108,7 +108,7 @@
  
    .footer {
       padding-top: 60px !important;
-      margin-top: 147px !important;
+     
    }
    .footer__wrapper {
       row-gap: 60px;
@@ -728,9 +728,9 @@
  
 
 
-   .footer {
+   /* .footer {
       margin-top: 57px !important;
-   }
+   } */
 
 }
 @media(max-width: 460px) {
@@ -897,9 +897,9 @@
    .alert__wrapper {
       width: 100% !important;
    }
-   .footer {
+   /* .footer {
       margin-top: 85px !important;
-   }
+   } */
 }
 
 @media(max-width: 410px) {
