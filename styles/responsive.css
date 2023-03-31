@@ -504,6 +504,13 @@
    }
 }
 @media(max-width: 600px) {
+   .navbar__body__controlls {
+      column-gap: 22px;
+      width: 100% !important;
+   }
+   .navbar__body__controlls>div {
+      margin-right: 0;
+   }
    .popularvideos__slide_image {
       height: 265px !important;
    }
@@ -552,7 +559,7 @@
    }
    .navbar__body__title, .navbar__body__title span {
       font-size: 32px !important;
-      line-height: 38px;
+      line-height: 38px !important;
       font-weight: normal !important
       ;
    }
@@ -563,10 +570,10 @@
    .navbar__body__subtitle {
       width: 50% !important;
    }
-   .navbar__body__desc div {
+   .navbar__body__desc>div {
       width: 100% !important;
    }
-   .navbar__body__desc div:last-child {
+   .navbar__body__desc>div:last-child {
       width: max-content !important;
    }
 }
