@@ -113,14 +113,27 @@ body {
 .navbar__body__controlls {
    display: flex;
    margin-top: 46px;
+   align-items: center;
 }
 .navbar__body__controlls__play {
    margin-right: 22.89px;
+   cursor: pointer;
 }
 .navbar__body__controlls__stop {
    margin-right: 32px;
+   cursor: pointer;
 }
-
+.navbar__body__controlls__delay {
+   width: 212px;
+   height: 5px;
+   background: var(--white);
+   cursor: pointer;
+}
+.navbar__body__controlls__delay__blue {
+   width: 0%;
+   height: 100%;
+   background: var(--blue);
+}
 .header__menu {
    margin: 10px auto 0px auto;
    padding: 24.96px 0px 25.92px 0px;

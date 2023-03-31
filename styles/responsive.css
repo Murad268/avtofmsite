@@ -745,7 +745,7 @@
       padding: 0 20px;
    }
    .popular {
-      padding: 0 0 !important;
+      padding: 0 0 90px 0!important;
    }
    .podcast__header {
       background-image: none !important;

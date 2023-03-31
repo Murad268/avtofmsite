@@ -1,3 +1,48 @@
+const audio = new Audio('../assets/music/Assassin\'s Creed Chronicles Russia Main Theme.mp3');
+const playButton = document.querySelector('.navbar__body__controlls__play');
+const stopButton = document.querySelector('.navbar__body__controlls__stop');
+const delaySlider = document.querySelector('.navbar__body__controlls__delay');
+const delayBar = document.querySelector('.navbar__body__controlls__delay__blue');
+
+const playOrStop = (music) => ({
+  play: () => music.play(),
+  stop: () => music.pause()
+});
+
+const duration = (music, bar) => {
+  music.addEventListener('timeupdate', () => {
+    const percentage = (music.currentTime / music.duration) * 100;
+    bar.style.width = `${percentage}%`;
+  });
+};
+
+const delayControl = (music, slider, bar) => {
+  const { left: sliderLeft, width: sliderWidth } = slider.getBoundingClientRect();
+
+  slider.addEventListener('click', ({ clientX }) => {
+    const x = clientX - sliderLeft;
+    const percentage = (x / sliderWidth) * 100;
+    const currentTime = (music.duration / 100) * percentage;
+
+    music.currentTime = currentTime;
+    bar.style.width = `${percentage}%`;
+  });
+};
+
+const controls = {
+  play: playOrStop(audio).play,
+  stop: playOrStop(audio).stop,
+  duration: () => duration(audio, delayBar),
+  delay: () => delayControl(audio, delaySlider, delayBar)
+};
+
+playButton.addEventListener('click', controls.play);
+stopButton.addEventListener('click', controls.stop);
+controls.duration();
+controls.delay();
+
+
+
 $('.slider').slick({
 	infinite: true,
 	slidesToShow: 2,
@@ -14,7 +59,7 @@ $('.slider').slick({
 			settings: {
 				slidesToShow: 1,
 				arrows: false,
-				dots: false,
+		
 			},
 		},
 		{
