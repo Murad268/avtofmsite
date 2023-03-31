@@ -371,14 +371,15 @@ body {
    align-items: center;
 }
 .download {
-   height: 800px;
+   height: max-content;
    /* background: url('../assets/images/Rectangle\ 30.png');
    background-position: 120% 0;
    background-repeat: no-repeat; */
    padding-left: 236px;
    padding-top: 253px;
    padding-right: 150px;
-   overflow-x: hidden;
+   /* overflow-x: hidden; */
+   margin-bottom: -5px;
  
 }
 
