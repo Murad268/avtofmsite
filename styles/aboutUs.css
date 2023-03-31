@@ -65,10 +65,11 @@
 }
 .broadcost__map {
    width: 100%;
-   overflow-x: scroll;
+   /* overflow-x: scroll; */
 }
 .broadcost__map>img {
-   width: 1410px;
+   width: 100%;
+   object-fit: contain;
 }
 
 .our__djs__title {

@@ -98,7 +98,9 @@
    .nw__weather__box__footer__wrapper {
       grid-template-columns: repeat(4, 1fr) !important;
    }
-
+   .broadcost {
+      padding-bottom: 70px !important;
+   }
    .nw__weather {
       padding-left: 20px;
    }
